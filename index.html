@@ -1,35 +1,200 @@
-
 <html>
     <head>
-        <title></title>
+        <title>My Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Greeshma's Portfolio</h1>
-        <h2>I'm a Web Developer</h2>
-        <hr>
-        <br>
-        <a href="./public/movie-ranking.html">Movie Ranking Project</a><br><br>
-        <img src="./assets/images/Movie.png" height="300px" width="400px"><br><br>
-        <a href="./public/birthday-invite.html">Birthday Invite Project</a><br><br>
-        <img src="./assets/images/Bday.png" height="300px" width="400px"><br><br>
-        <a href="./public/motivation-meme.html">Motivation Project</a><br><br>
-        <img src="./assets/images/Motivation.png" height="300px" width="500px"><br><br><br>
-        <a href="./public/flag.html">Flag Project</a><br>
-        <img src="./assets/images/Flag.png" height="300px" width="500px"><br><br><br>
-        <a href="./public/webdesign_agency.html">Web Design Agency Project</a><br><br>
-        <img src="./assets/images/Web-design.png" height="300px" width="550px"><br><br><br>
-        <a href="./public/pricing-table.html">Pricing Table Project</a><br>
-        <img src="./assets/images/pricing.png" height="300px" width="590px"><br><br>
-        <a href="./public/mondrian.html">Mondrian Painting Project</a><br><br>
-        <img src="./assets/images/mondrian.png" height="300px" width="550px"><br><br><br>
-        <a href="./public/moving-company.html">Moving Company Website Project</a><br><br>
-        <img src="./assets/images/moving-company.png" height="300px" width="600px"><br><br><br>
-        <hr>
-        <a href="./public/about.html">About Me</a>
-        <a href="./public/contact.html">Contact me</a>
+       <div class="name">
+        <h1>Hey there, I'm Greeshma</h1>
+        <p>I'm a Web Developer</p>
+       </div>
+
+       <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">My Interests</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/images/palette.svg" height="30px">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Drawing & Painting</h3>
+            <p>I've had a passion for drawing ever since I was 11 years old. I also competed in many drawing competitions and won prizes.</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/images/browser-chrome.svg" height="30px">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Web Designing</h3>
+            <p>I'm currently pursuing web designing. I have developed minor projects to showcase my web designing skills.</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./assets/images/luggage.svg" height="30px">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Travelling</h3>
+            <p>I love to travel along with my loved ones and make a lot of memories.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <h2 class="pb-2 border-bottom">My Projects</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 pt-4">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/images/Movie.png" width="80%" height="225">
+                <div class="card-body">
+                  <h5>Movie Ranking Project</h3>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" onclick="document.location='./public/movie-ranking.html'"  class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/images/Bday.png" width="70%" height="225">
+                <div class="card-body">
+                  <h5>Birthday Invite Project</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"  onclick="document.location='./public/birthday-invite.html'"  class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/images/Motivation.png" width="100%" height="225">
+                <div class="card-body">
+                  <h5>Motivation Project</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"  onclick="document.location='./public/motivation-meme.html'"   class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="./assets/images/colour-vocab.png" width="100%" height="225">
+                  <div class="card-body">
+                    <h5>Colour Vocab Project</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button"  onclick="document.location='./public/colour-vocab.html'"   class="btn btn-sm btn-outline-secondary">View</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/images/Flag.png" width="100%" height="225">
+                <div class="card-body">
+                  <h5>Flag Project</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"  onclick="document.location='./public/flag.html'"   class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/images/Web-design.png" width="100%" height="225">
+                <div class="card-body">
+                  <h5>Web Design Agency Project</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"  onclick="document.location='./public/webdesign_agency.html'"   class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/images/pricing.png" width="100%" height="225">
+                <div class="card-body">
+                  <h5>Pricing Table Project</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"  onclick="document.location='./public/pricing-table.html'"   class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/images/mondrian.png" width="100%" height="225">
+                <div class="card-body">
+                  <h5>Mondrian Painting Project</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"  onclick="document.location='./public/mondrian.html'"   class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/images/moving-company.png" width="100%" height="225">
+                <div class="card-body">
+                  <h5>Moving Company Website Project</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"  onclick="document.location='./public/moving-company.html'"   class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5">
+        <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+          <h1 class="text-body-emphasis">Get In Touch</h1>
+          <p class="col-lg-6 mx-auto mb-4">
+            I’m always excited to connect! Whether you have a project idea, want to collaborate,feel free to reach out.
+          </p>
+          <button class="btn btn-primary px-5 mb-5" type="button">
+            Contact Me
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
-
-
-
-
