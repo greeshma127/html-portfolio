@@ -21,3 +21,15 @@
     background: #7F7FD5;
     font-size: 20px;
 }
+
+@media(max-width:413px){
+    .name{
+        max-height: 100% ;
+    }
+
+    .feature{
+        p{
+            font-size: large;
+        }
+    }
+}
