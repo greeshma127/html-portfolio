@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(#0f0c29, #302b63, #24243e);
+    background-size: 100% 150%;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 280px;
+    margin: 170px auto 0 auto;
+    text-align: center;
+    padding-top: 70px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5);
+}
+
+
+#startButton,#submit,#giveUp,#nextWord{
+    height: 35px;
+    width: 70px;
+}
+
+#userGuess{
+    height: 30px;
+    width: 200px;
+    font-size: large;
+}
+
+p{
+    font-size: large;
+    font-family: 'Open Sans';
+}
