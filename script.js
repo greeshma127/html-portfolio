@@ -1,59 +1,5 @@
 const projects = [
     {
-        title: "Movie Ranking Project",
-        image: "./assets/images/Movie.png",
-        width: "80%",
-        link: "./public/movie-ranking.html"
-    },
-    {
-        title: "Birthday Invite Project",
-        image: "./assets/images/Bday.png",
-        width: "70%",
-        link: "./public/birthday-invite.html"
-    },
-    {
-        title: "Motivation Project",
-        image: "./assets/images/Motivation.png",
-        width: "100%",
-        link: "./public/motivation-meme.html"
-    },
-    {
-        title: "Colour Vocab Project",
-        image: "./assets/images/colour-vocab.png",
-        width: "100%",
-        link: "./public/colour-vocab.html"
-    },
-    {
-        title: "Flag Project",
-        image: "./assets/images/Flag.png",
-        width: "100%",
-        link: "./public/flag.html"
-    },
-    {
-        title: "Web Design Agency Project",
-        image: "./assets/images/Web-design.png",
-        width: "100%",
-        link: "./public/webdesign_agency.html"
-    },
-    {
-        title: "Pricing Table Project",
-        image: "./assets/images/pricing.png",
-        width: "100%",
-        link: "./public/pricing-table.html"
-    },
-    {
-        title: "Mondrian Painting Project",
-        image: "./assets/images/mondrian.png",
-        width: "100%",
-        link: "./public/mondrian.html"
-    },
-    {
-        title: "Moving Company Website Project",
-        image: "./assets/images/moving-company.png",
-        width: "100%",
-        link: "./public/moving-company.html"
-    },
-    {
         title: "BMI Calculator",
         image: "./assets/images/bmi.png",
         width: "100%",
@@ -88,6 +34,18 @@ const projects = [
         image: "./assets/images/bg'.png",
         width: "100%",
         link: "https://github.com/greeshma127/Vision-Tracker"
+    },
+    {
+        title: "Qurio - Quiz App",
+        image: "./assets/images/qurio.png",
+        width:"100%",
+        link:"https://github.com/greeshma127/Qurio-Quiz-App"
+    },
+    {
+        title: "AuralMind",
+        image: "./assets/images/AuralMind.png",
+        width:"100%",
+        link:"https://github.com/greeshma127/AuralMind"
     }
 ];
 
